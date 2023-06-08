@@ -1,3 +1,6 @@
+Purpose:
+To understand Convolutional Neural Networks and how they can be used to classify images in real time utilizing tensorflow.
+
 Goal: 
 Utilizing tensorflow to build a model that can classify the images into the 29 classes.
 Once the model is trained and tested, we will use it to classify real-world images.
@@ -26,7 +29,7 @@ Steps:
 
 Neural Network Architecture:
     Input layer: 200x200 pixels x 3 channels (RGB)
-    Convolutional layer: TBD
-    Dense layer: TBD
-    Softmax layer: 29 classes (A-Z, SPACE, DELETE, NOTHING)
-
+    Convolutional layer: 3 filters, 3x3 kernel, ReLU activation
+    Dense layer: 128 neurons, ReLU activation
+    Softmax layer: 29 probabilities for each class
+    Output layer: 1 of 29 classes (A-Z, SPACE, DELETE, NOTHING)
